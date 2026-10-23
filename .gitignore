@@ -1,0 +1,32 @@
+# Dependencies & Builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+target/
+**/target/
+*.jar
+**/*.jar
+*.class
+**/*.class
+
+# Logs
+*.log
+**/*.log
+
+# Environment variables & secrets
+*.pem
+**/*.pem
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDEs & OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
